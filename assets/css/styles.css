@@ -408,7 +408,7 @@ img {
 }
 .work-img{
   /* padding-left: 50px; */
-  margin-left: 60px;
+  margin-left: 45px;
   margin-bottom:10px ;
   margin-top: 10px;
 }
@@ -418,7 +418,18 @@ img {
   justify-items: center;
   /* height: 150px; */
 }
-
+.company{
+  color: #428fa2;
+  font-weight: 500;
+  font-size: 20px;
+}
+.duration{
+  font-weight: 600;
+}
+.task{
+  font-weight: 200;
+  font-size: 14px;
+}
 .project__img, .work__img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: .5rem;
@@ -453,18 +464,7 @@ img {
 .footer__social {
   margin-bottom: 5px;
 }
-.company{
-  color: #428fa2;
-  font-weight: 500;
-  font-size: 20px;
-}
-.duration{
-  font-weight: 600;
-}
-.task{
-  font-weight: 200;
-  font-size: 14px;
-}
+
 .footer__icon {
   font-size: 1.5rem;
   color: #fff;
