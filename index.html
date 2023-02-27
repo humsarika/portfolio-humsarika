@@ -10,18 +10,20 @@
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
         <title>Sarika Kushwaha</title>
-    </head>
     <body>
         <!--===== HEADER =====-->
         <header class="l-header">
-            <nav class="nav bd-grid">
+            <nav class="nav">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
                 <div>
                     <a href="#" class="nav__logo">Humsarika</a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#index" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#project" class="nav__link">Project</a></li>
@@ -30,9 +32,6 @@
                     </ul>
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
             </nav>
         </header>
 
@@ -41,7 +40,7 @@
             <section class="home bd-grid" id="home">
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Sarika</span><br> Web Designer</h1>
-                    <a href="mailto:sarika.kush2212@gmail.com?subject=New%20message%20from%20Website&body=Write%20your%20message%20here" target = "_blank" class="button">Hire me</a>
+                    <a href="mailto:sarika.kush2212@gmail.com?subject=New%20message%20from%20Website&body=Write%20your%20message%20here" target = "_blank" class="button hireme">Hire me</a>
                     <a href="https://drive.google.com/file/d/1PR5OT8oa59QJnyliKPfoyAmJBSc3oDrZ/view?usp=sharing" target = "_blank" class="button">Resume</a>
 
                 </div>
@@ -86,10 +85,10 @@
                     
                     <div>
                         <h2 class="about__subtitle">I'am Sarika Kushwaha</h2>
-                        <p class="about__text"><p>  Hello, my name is sarika kushwaha a talented web developer based in Rewa, India.
+                        <p class="about__text"><p>  I'm a web developer based in Rewa, India.
                             I am currently pursuing a Bachelor of Technology in Computer Science Engineering,
                             and I have a strong background in web designing, data structures, and object-oriented programming.
-                            I am always eager to learn new skills and expand my knowledge.</p>
+                            I am always eager to learn new skills and expand my knowledge.</p><br>
                            <p>In my free time, I like to listen to podcasts and songs, which helps me stay creative and inspired in my work.
                             I am confident that my passion for web development, strong skill set, and willingness to
                              learn make me an excellent candidate for any open positions. Thank you for considering my application.</p>           
@@ -101,7 +100,7 @@
             <section class="skills section" id="skills">
                 <h2 class="section-title">Skills</h2>
                 <div class="skills-main-container">
-                    <div class="skills__container grid-3">          
+                    <div class="skills__container">          
                         <div>
                             <h2 class="skills__subtitle">Web Development</h2>
                             <div class="skills__data">
@@ -137,7 +136,7 @@
                         </div>
                         
                     </div>
-                    <div class="skills__container grid-3">          
+                    <div class="skills__container">          
                         <div>
                             <h2 class="skills__subtitle">Programming Languages</h2><br>
                             <div class="skills__data">
@@ -166,7 +165,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="skills__container grid-3">          
+                    <div class="skills__container">          
                         <div>
                             <h2 class="skills__subtitle">Other Tech Skills</h2>
                             <div class="skills__data">
@@ -214,7 +213,6 @@
             <!--===== Project =====-->
             <section class="project section" id="project">
                 <h2 class="section-title">Projects</h2>
-                <div class="main-project-div">
                     <div class="project-main-container">
                         <div class="project__container bd-grid">
                             <a href="#project" class="project__img">
@@ -224,7 +222,7 @@
                             </a>
                         </div>
                         <div class="project__container bd-grid">
-                            <a href="https://humsarika.github.io/FoodZone/" class="project__img">
+                            <a href="https://humsarika.github.io/FoodZone/"  target="_blank" class="project__img">
                                 <img src="assets/img/foodzone.jpg" alt=""> <br><p>Food Zone
                                     <br>Food Restaurant website using html and css.
                                 </p>
@@ -233,19 +231,18 @@
                     </div>
                     <div class="project-main-container">
                         <div class="project__container bd-grid">
-                            <a href="https://github.com/humsarika/Weather-Now" class="project__img">
+                            <a href="https://github.com/humsarika/Weather-Now" target="_blank" class="project__img">
                                 <img src="assets/img/weatherNow.jpg" alt=""> <br><p>Weather Now
                                     <br>Weather App using Reactjs
                                 </p>
                             </a>
                         </div>
                         <div class="project__container bd-grid">
-                            <a href="https://www.figma.com/file/GSwGfgsYgwhuhbwjBfywh7/Crypto?node-id=0%3A1&t=QoeJ8kYLSj6SspwL-1" class="project__img">
-                                <img src="assets/img/weatherNow.jpg" alt=""> <br><p>Crypto Website Design using Figma</p>
+                            <a href="https://www.figma.com/file/GSwGfgsYgwhuhbwjBfywh7/Crypto?node-id=0%3A1&t=QoeJ8kYLSj6SspwL-1" target="_blank" class="project__img">
+                                <img src="assets/img/crypto.jpg" alt=""> <br><p>Crypto Website Design using Figma</p>
                             </a>
                         </div>
                     </div>
-                </div>
             </section>
 
             
@@ -254,7 +251,7 @@
             <h2 class="section-title">Work Experience</h2>
                 <div class="work__container bd-grid">
                     <a href="" class="work__img">
-                        <img src="assets/img/work-levanV.jpg" alt="" class="new" height="180px" width="180px"> <br>Levan Ventures pvt. ltd.
+                        <img src="assets/img/work-levanV.jpg" alt="" class="work-img" height="180px" width="180px"> <br>LevanV pvt. ltd.
                         <br>Oct 2022 - Nov 2022
                         <br>Title - Frontend Web Developer
                     </a>
@@ -271,8 +268,6 @@
                 <a href="https://www.github.com/humsarika" class="footer__icon"><i class='bx bxl-github' ></i></a>
                 <a href="https://www.instagram.com/humsarika" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="https://www.snapchat.com/add/sarika2212_1?share_id=8AJFKxM0XM8&locale=en-IN" class="footer__icon"><i class='bx bxl-snapchat' ></i></a>
-
-
             </div>
         </footer>
 
