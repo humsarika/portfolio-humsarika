@@ -467,7 +467,10 @@ img {
   color: var(--first-color);
   margin: 0 var(--mb-2);
 }
-
+.footer__email{
+  visibility: hidden;
+  display: none;
+}
 .footer__copy {
   font-size: 15px;
   padding-top: 10px;
@@ -732,6 +735,10 @@ img {
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
   }
+  .l-header{
+    visibility: hidden;
+    display: none;
+  }
   ul{
     display: none;
   }
@@ -762,22 +769,23 @@ img {
   }
 
   /* -----------home------------- */
-  .home__blob-img , .home__blob , .hireme{
+  .home__blob-img , .home__blob {
     display: none;
     visibility: hidden;
 
   }
   .home__title{
-    margin-top: 100px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
     font-size: 3rem;
     margin-left: 20px;
   }
   .home__social{
     flex-direction: column;
-    display: inline-block;
+    display: block;
     /* padding: 10px; */
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    padding-right:1.7em ;
     margin-left: 20px;
     margin-top: 30px;
     margin-bottom: 90px;
@@ -844,12 +852,13 @@ img {
   padding-bottom: 10px;
 
 }
+.footer__email{
+  visibility: visible;
+  display: contents;
+}
 
 }
 @media only screen and (max-width: 415px) {
-  .nav{
-    display:contents;
-  }
   .project-main-container{
     margin-left: 15px;
   }
