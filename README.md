@@ -1,3 +1,3 @@
 # Portfolio
-check my portfolio [here](humsarika.vercel.app).
+check my portfolio [here](https://humsarika.vercel.app/) .
 
