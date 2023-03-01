@@ -269,12 +269,18 @@ img {
   color: #fff;
   padding: 10px 25px;
   font-weight: var(--font-semi);
-  border-radius: 1rem;
+  font-weight: 500;
+  border-radius: 2rem;
+  margin-right: 10px;
   transition: .3s;
-}
+  }
 
 .button:hover {
-  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+    border-width: 2px;
+    border-color: #428fa2;
+    background-color: #ffffff;
+    color: #428fa2;
 }
 
 /* ===== ABOUT =====*/
@@ -744,24 +750,27 @@ img {
   }
  
   /* -------BUTTONS--------*/
-.button {
-  display: inline-block;
-  background-color: var(--first-color);
-  color: #fff;
-  padding: 10px 20px;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  font-size: 26px;
-  margin-left: 20px;
-  font-weight: var(--font-semi);
-  border-radius: 1rem;
-  transition: .3s;
-}
+  .button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 15px 15px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 500;
+    border-radius: 2rem;
+    transition: .3s;
+  }
 
-.button:hover {
-  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
-  border-radius: 1rem;
-}
+  .button:hover {
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+    border-width: 2px;
+    border-color: #428fa2;
+    background-color: #ffffff;
+    color: #428fa2;
+  }
 /* ----------nav----------- */
 
   .nav__logo{
