@@ -249,17 +249,21 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  top: 150px;
+  top:150px;
   width: 300px;
   height: 300px;
 }
 
 .home__blob {
   fill: var(--first-color);
+  width: 390px;
+  height: 400px;
 }
 
 .home__blob-img {
-  width: 480px;
+  top: 0;
+  width: 478px;
+  height: 515px;
 }
 
 /*BUTTONS*/
