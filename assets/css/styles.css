@@ -290,7 +290,10 @@ img {
   row-gap: 2rem;
   text-align: center;
 }
-
+.about__text{
+  text-align: justify;
+  
+}
 .about__subtitle {
   margin-bottom: var(--mb-2);
 }
@@ -694,6 +697,10 @@ img {
   .home__img {
     width: 450px;
   }
+  .about__text{
+  max-width: 400px;
+  }
+  
 }
 @media screen and (min-width: 800px) {
   .skills-main-container{
