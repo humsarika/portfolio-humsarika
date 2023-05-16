@@ -6,19 +6,17 @@
   /* background-color: #cecece; */
   --header-height: 3.8rem;
   --font-semi: 600;
-  /*===== Colores =====*/
-  /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
-  /* HSL color mode */
+  /*===== Colors =====*/
   --hue-color: 429;
   --first-color: #428fa2;
   --second-color: #0b1214;
-  /*===== Fuente y tipografia =====*/
+  /*===== font =====*/
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
   --smaller-font-size: .75rem;
-  /*===== Margenes =====*/
+  /*===== Margins =====*/
   --mb-2: 1rem;
   --mb-4: 2rem;
   --mb-5: 2.5rem;
