@@ -180,8 +180,8 @@ img {
 }
 
 .nav__logo {
-  color: var(--second-color);
-  /* align-ite; */
+  color: var(--first-color);
+  font-size: 30px;
 }
 
 .nav__toggle {
