@@ -387,14 +387,24 @@ img {
 }
 .project__container{ /* single container*/
   width: 300px;
-  height: 310px;
+  height: 350px;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+.project__container p{
+  font-size: 12px;
+  font-weight: lighter;
+}
+.project__container p span{
+  font-size: 14px;
+  font-weight: 500;
+  color: #383838;
+
 }
 
 .work__container{
-  width: 300px;
-  height: 350px;
+  width: 350px;
+  height: 450px;
   text-align: center;
   justify-items: center;
 }
@@ -408,9 +418,11 @@ img {
 }
 .work-img{
   /* padding-left: 50px; */
-  margin-left: 45px;
+  /* margin-left: 45px;
   margin-bottom:10px ;
-  margin-top: 10px;
+  margin-top: 10px; */
+  width: 100%;
+  height: 65%;
 }
 .work__img {
   width: 100%;
@@ -421,14 +433,18 @@ img {
 .company{
   color: #428fa2;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 14px;
+}
+.company  span{
+  color: #696969;
+  font-style: italic;
 }
 .duration{
-  font-weight: 600;
+  font-weight: 400;
 }
 .task{
-  font-weight: 200;
-  font-size: 14px;
+  font-weight:lighter;
+  font-size: 12px;
 }
 .project__img, .work__img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
@@ -874,12 +890,10 @@ img {
     margin-left: 15px;
   }
   .work__container{
-    margin-left: 45px;
+    margin-left: 15px;
   }
   .skills-main-container{
     margin-left: 30px;
   }
-
- 
 
 }
